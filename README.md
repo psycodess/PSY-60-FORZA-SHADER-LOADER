@@ -13,11 +13,11 @@ This is an automated ReShade installer and loader designed for **ANY Forza Franc
 
 ### Included Shaders & Presets
 This loader comes packed with 6 custom `.ini` presets ready to enhance your Forza experience:
-1. `Jan's Better Forza Reshade.ini`
-2. `Jan's Cinematic Forza V2.ini`
-3. `Vintage camera.ini`
-4. `realestic hd .ini`
-5. `simple hd.ini`
+1. `simpel.ini`
+2. `simple 2.ini`
+3. `simple hd.ini`
+4. `Vintage camera.ini`
+5. `realestic hd .ini`
 6. `ticktok uhd.ini`
 
 ---
