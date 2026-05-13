@@ -29,7 +29,9 @@ if ($reshadeAns -match "^[Nn]") {
     Write-Host "[*] Downloading ReShade Setup..." -ForegroundColor Yellow
     $reshadeUrl = "https://reshade.me/downloads/ReShade_Setup_6.7.3.exe"
     $reshadePath = "$env:TEMP\ReShade_Setup.exe"
+    $ProgressPreference = 'SilentlyContinue'
     Invoke-WebRequest -Uri $reshadeUrl -OutFile $reshadePath
+    $ProgressPreference = 'Continue'
     Write-Host "[+] Download complete! Launching ReShade installer..." -ForegroundColor Green
     Start-Process -FilePath $reshadePath -Wait
     Write-Host "[+] ReShade installation finished." -ForegroundColor Green
@@ -48,7 +50,9 @@ $zipUrl = "https://github.com/psycodess/PSY-60-FORZA-SHADER-LOADER/archive/refs/
 $zipPath = "$env:TEMP\psy60_shaders.zip"
 $extractPath = "$env:TEMP\psy60_extract"
 
+$ProgressPreference = 'SilentlyContinue'
 Invoke-WebRequest -Uri $zipUrl -OutFile $zipPath
+$ProgressPreference = 'Continue'
 if (Test-Path $extractPath) { Remove-Item $extractPath -Recurse -Force }
 Expand-Archive -Path $zipPath -DestinationPath $extractPath -Force
 
