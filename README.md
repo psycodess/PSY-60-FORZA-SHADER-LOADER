@@ -1,15 +1,24 @@
 # PSY-60-FORZA-SHADER-LOADER
 
-Welcome to the **PSY-60-FORZA-SHADER-LOADER** repository by PSYCHOWHO / SIFAT!
+Welcome to the **PSY-60-FORZA-SHADER-LOADER** repository!
 
-This script helps you easily install ReShade and apply custom shaders/presets for Forza Horizon without needing to download anything manually.
+This is an automated ReShade installer and loader designed for **ANY Forza Franchise Game**! Whether you play Forza Horizon 1, 2, 3, 4, 5, or Forza Motorsport, this tool will automatically install ReShade and inject custom presets directly into your game folder.
 
 ## Features
 
+- **Universal Forza Support:** Works with any game from the Forza franchise (Horizon & Motorsport).
 - **Automated ReShade Installation:** If you haven't installed ReShade, the script will download the latest setup for you automatically.
-- **Easy Shader Deployment:** Automatically downloads and copies all `reshade-shaders` files and `.ini` presets directly into your Forza game folder.
+- **Easy Shader Deployment:** Automatically downloads and copies all `reshade-shaders` files and our custom `.ini` presets directly into your Forza game folder.
 - **Beautiful CLI Interface:** A colourful terminal UI featuring custom ASCII art.
-- **Developer Links:** Automatically directs you to the developer's Instagram after a successful installation!
+
+### Included Shaders & Presets
+This loader comes packed with 6 custom `.ini` presets ready to enhance your Forza experience:
+1. `Jan's Better Forza Reshade.ini`
+2. `Jan's Cinematic Forza V2.ini`
+3. `Vintage camera.ini`
+4. `realestic hd .ini`
+5. `simple hd.ini`
+6. `ticktok uhd.ini`
 
 ---
 
@@ -24,11 +33,11 @@ irm https://raw.githubusercontent.com/psycodess/PSY-60-FORZA-SHADER-LOADER/main/
 ### Steps:
 1. Press `Win + R`, type `powershell`, and press Enter.
 2. Paste the command above into the terminal and hit Enter.
-3. Follow the simple on-screen instructions.
+3. Follow the simple on-screen instructions to locate your game path.
 
 ---
 
 ## Developer
 
-**SIFAT / PSYCHOWHO**  
+**Developed by Musfikur Rhaman Sifat**  
 Follow me on Instagram: [https://www.instagram.com/psychowhoqustionmark/](https://www.instagram.com/psychowhoqustionmark/)
